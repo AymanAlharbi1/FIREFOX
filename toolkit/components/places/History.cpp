@@ -159,7 +159,7 @@ struct VisitData {
   int32_t frecency;
   int64_t lastVisitId;
   PRTime lastVisitTime;
-  uint32_t visitCount;  
+  uint32_t visitCount; //TESTING
 
   /**
    * Stores the title.  If this is empty (IsEmpty() returns true), then the
